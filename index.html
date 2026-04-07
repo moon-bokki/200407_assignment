@@ -3,11 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>자기소개</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+        font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #1E293B;
+        background: #F8FAFC;
+        }
+        /* TODO 1 ─────────────────────────────────────
+            header, nav 스타일을 완성하세요.
+            - header: 배경색, padding, color
+            - nav a: 색상, margin, hover 효과
+────────────────────────────────────────────── */
+    </style>
+
+
 </head>
 <body>
-      <h1>Hellow World</h1>  
+    <header>
+        <h1>복기의 소개 페이지</h1>
+
+        <nav>
+        <a href="#about">소개</a>
+        <a href="#hobby">취미·관심사</a>
+        <a href="#contact">연락처</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>나에 대해서</h2>
+            <p>안녕하세요 반갑습니다</p>
+            <p>저는 운동과 빵만들기를 좋아하는 옛날 사람입니다^^</p>
+        </section>
+
+        <section id="hobby">
+          <h2>취미</h2>
+            <ul>스포츠</ul>
+            <ul>여행</ul>
+            <ul>영화관람</ul>
+        </section>
+
+        
+        <section id="contact">
+        <h2>방명록</h2>
+    
+        <p><form action="">
+                <label for="">이름:</label>
+                <input type="text"
+                placeholder="이름을 입력하세요"></p>
+        <p>
+            <label for="">이메일:</label>
+            <input type="email" name=""  id=""></p>
+
+        <p>
+            <label for="">하고싶은 말</label>
+            <textarea name="" id=""></textarea>
+    
+        </p> 
+        <button type="submit">제출</button>
+        </form>
+        </section>
+    </main>
+
+    <footer>
+      <!-- TODO 7 ──────────────────────────────────────
+      저작권 문구를 써주세요.
+      예) <p>© 2025 홍길동. All rights reserved.</p>
+    ─────────────────────────────────────────────── -->
+        
+    
+
+
+        <div class="profile-card"> 
+       <p>@ 2026 MOON. All rights reserved.</p>
+    </div>
+    </footer>
 </body>
 </html>

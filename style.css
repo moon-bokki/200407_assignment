@@ -1,3 +1,55 @@
 h1{
-    color: antiquewhite;
+    color: rgb(124, 91, 48);
 }
+
+
+footer {
+  /* background, color, text-align, padding, margin-top */
+}
+
+footer a{
+  color: #93C5FD;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  color: #F59E0B;
+}
+
+
+
+
+        *{
+        box-sizing: border-box;}
+        /* 요소 바깥 여백 */
+        .box-demo {
+            margin: 20px;
+            margin-top: 40px;
+            margin: 10px   20px;
+            margin: 10px 20px 30px 40px;
+            background-color: red;
+        }
+        .box-demo {padding: 16px;
+        }
+
+        .box-demo {
+            border: 1px solid palegreen;
+            border-radius: 8px;
+        }
+
+        .profile-card {
+            margin: 20px;
+            margin-top: 40px;
+            margin: 10px   20px;
+            margin: 10px 20px 30px 40px;
+            background-color: rgb(87, 180, 129);
+            color: white;
+        }
+        .profile-card {padding: 16px;
+        }
+
+        .profile-card {
+            border: 5px solid rgb(37, 114, 37);
+            border-radius: 20px;
+        }
